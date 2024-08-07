@@ -14,7 +14,7 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
     const password = document.getElementById('password').value;
 
     // Simulación de autenticación
-    if (username === 'unad' && password === 'unad') {
+    if (username === 'unad1' && password === 'unad1') {
         showSection('mainMenu');
     } else {
         alert('Credenciales incorrectas. Inténtelo de nuevo.');
